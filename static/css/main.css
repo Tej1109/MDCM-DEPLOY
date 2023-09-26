@@ -1,0 +1,57 @@
+/* Style for the form container */
+body{ background-color: darkturquoise;}
+form {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background color */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the form heading */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #fff; /* Text color */
+    background-color:black; /* Background color with transparency */
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: auto;
+    backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+}
+
+
+/* Style for labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style for form inputs */
+input[type="text"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Style for the submit button */
+input[type="submit"] {
+    background-color: #007bff; /* Blue button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

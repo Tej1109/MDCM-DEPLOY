@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Details Form</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <h1>Car Details Form</h1>
+    
+    <form action="/results" method="post">
+        <label for="make">Make:</label>
+        <select id="make" name="make" required>
+            <option value="Honda">Honda</option>
+            <option value="Maruti Suzuki">Maruti Suzuki</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Mercedes-Benz">Mercedes-Benz</option>
+            <option value="BMW">BMW</option>
+            <option value="Skoda">Skoda</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Renault">Renault</option>
+            <option value="Tata">Tata</option>
+            <option value="Volkswagen">Volkswagen</option>
+            <option value="Ford">Ford</option>
+            <option value="Audi">Audi</option>
+            <option value="Mahindra">Mahindra</option>
+            <option value="MG">MG</option>
+            <option value="Jeep">Jeep</option>
+            <option value="Porsche">Porsche</option>
+            <option value="Kia">Kia</option>
+            <option value="Land Rover">Land Rover</option>
+            <option value="Volvo">Volvo</option>
+            <option value="Maserati">Maserati</option>
+            <option value="Jaguar">Jaguar</option>
+            <option value="Isuzu">Isuzu</option>
+            <option value="MINI">MINI</option>
+            <option value="Ferrari">Ferrari</option>
+            <option value="Mitsubishi">Mitsubishi</option>
+            <option value="Datsun">Datsun</option>
+            <option value="Lamborghini">Lamborghini</option>
+            <option value="Chevrolet">Chevrolet</option>
+            <option value="Ssangyong">Ssangyong</option>
+            <option value="Fiat">Fiat</option>
+            <option value="Rolls-Royce">Rolls-Royce</option>
+            <option value="Lexus">Lexus</option>
+        </select><br><br>
+
+        <label for="year">Year:</label>
+        <input type="text" id="year" name="year" required><br><br>
+
+        <label for="kilometer">Kilometer:</label>
+        <input type="text" id="kilometer" name="kilometer" required><br><br>
+
+        <label for="fuel_type">Fuel Type:</label>
+        <select id="fuel_type" name="fuel_type" required>
+            <option value="Petrol">Petrol</option>
+            <option value="Diesel">Diesel</option>
+            <option value="CNG">CNG</option>
+            <option value="CNG + CNG">CNG + CNG</option>
+            <option value="LPG">LPG</option>
+            <option value="Hybrid">Hybrid</option>
+            <option value="Petrol + CNG">Petrol + CNG</option>
+        </select><br><br>
+
+        <label for="transmission">Transmission:</label>
+        <select id="transmission" name="transmission" required>
+            <option value="Manual">Manual</option>
+            <option value="Automatic">Automatic</option>
+        </select><br><br>
+
+        <label for="owner">Owner:</label>
+        <select id="owner" name="owner" required>
+            <option value="First">First</option>
+            <option value="Second">Second</option>
+            <option value="Third">Third</option>
+            <option value="UnRegistered Car">UnRegistered Car</option>
+        </select><br><br>
+
+        <label for="seller_type">Seller Type:</label>
+        <select id="seller_type" name="seller_type" required>
+            <option value="Corporate">Corporate</option>
+            <option value="Individual">Individual</option>
+            <option value="Commercial Registration">Commercial Registration</option>
+        </select><br><br>
+
+        <label for="engine">Engine:</label>
+        <input type="text" id="engine" name="engine" required><br><br>
+
+        <label for="max_power">Max Power:</label>
+        <input type="text" id="max_power" name="max_power" required><br><br>
+
+        <label for="max_torque">Max Torque:</label>
+        <input type="text" id="max_torque" name="max_torque" required><br><br>
+
+        <label for="drivetrain">Drivetrain:</label>
+        <select id="drivetrain" name="drivetrain" required>
+            <option value="FWD">FWD</option>
+            <option value="RWD">RWD</option>
+            <option value="AWD">AWD</option>
+        </select><br><br>
+
+        <label for="length">Length:</label>
+        <input type="text" id="length" name="length" required><br><br>
+
+        <label for="width">Width:</label>
+        <input type="text" id="width" name="width" required><br><br>
+	<label for="width">Height:</label>
+        <input type="text" id="height" name="height" required>
+        <label for="seating_capacity">Seating Capacity:</label>
+        <input type="text" id="seating_capacity" name="seating_capacity" required><br><br>
+
+        <label for="fuel_tank_capacity">Fuel Tank Capacity:</label>
+        <input type="text" id="fuel_tank_capacity" name="fuel_tank_capacity" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
